@@ -29,4 +29,6 @@ On start the app will check to see if have a SQL Toolkit license. I think just h
     
     
 ###DataSource Compare
-    
+    You can compare 2 types of data sources; Microsoft SQL Database or SQL Scripts in a source control repository.
+    Git Integration: The first step to integrated Git int ARC was to display what branch the user is working on. To accomplish this I used LibGit2Sharp. Now that I have that working we could build on that to wire up with Sync to Source action. This would allow the ability to commit to the repository when syncing.
+    Executing the Compare will cycle through the databases.  Using the IAsyncResult you have the limit of 64 request. I haven't reached this limit in this application but in case you have the need to do so it will queue the requests.
