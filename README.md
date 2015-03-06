@@ -61,3 +61,5 @@ On start the app will check to see if have a SQL Toolkit license. I think just h
 ###Quick Object Diff Viewer
   I didn't want to launch an external app so I started to create one myself as well as look around to see what is out there.
 
+###What does it look like?
+<img src="https://github.com/cgstevens/ARC/blob/master/ARC.jpg"/>
